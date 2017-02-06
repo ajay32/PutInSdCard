@@ -53,12 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }
 
-            //**************************************************************************
-            // Sir .......! we have 2 permission Read and Write ..i guess they both store in grantResults at different time
-            // may be at 0th location on their own time..i dont have marshmallow phone so cant check this permission thing ...
-            // i just created it ...so if any problem occur with it just make grantResults[0] to --> grantResult[1]
-            //********************************************************************************
-
+          
 
             else if(requestCode == IMAGE_GETTING) {
 
